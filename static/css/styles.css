@@ -1,0 +1,11 @@
+.test{
+    color:blue
+}
+.startbtn{
+    font-size: 24pt!important;
+    border-radius: 54%!important;
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
+    border-color: cyan!important;
+    border: dotted;
+}
