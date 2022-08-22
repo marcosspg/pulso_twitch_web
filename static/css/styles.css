@@ -9,3 +9,71 @@
     border-color: cyan!important;
     border: dotted;
 }
+
+
+.playingColor{
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.playersPoints{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.playersPoints div{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+.winning{
+    position: absolute;
+    top: 45%;
+    font-weight: bold;
+    font-size: xxx-large;
+    width: 100%;
+    text-decoration-color: #01ab01;
+}
+
+
+.losing{
+    position: absolute;
+    top: 45%;
+    font-weight: bold;
+    font-size: xxx-large;
+    width: 100%;
+    text-decoration-color: #c50404;
+}
+
+.result{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+}
+
+.empate{
+    position: absolute;
+    top: 45%;
+    font-weight: bold;
+    font-size: xxx-large;
+    width: 100%;
+    text-decoration-color: #000291;
+}
+
+
+
+
+#timer{
+    position: absolute;
+    width: 100%;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#playerColor{
+    background-color: aqua;
+}
+#iaColor{
+    background-color: blueviolet;
+}

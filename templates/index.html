@@ -13,25 +13,38 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col text-center">
-                <h1>¡Echemos un pulso!</h1>
+        <div id="content">
+            <div class="row justify-content-center mt-3">
+                <div class="col text-center">
+                    <h1>¡Echemos un pulso!</h1>
+                </div>
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-5">
-                <img class="img-fluid" src="{{ url_for('static', filename='pulso.jpg') }}"">
+            <div class="row justify-content-center">
+                <div class="col-5">
+                    <img class="img-fluid" src="{{ url_for('static', filename='pulso.jpg') }}"">
+                </div>
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-5 text-center">
-                <button class="btn btn-danger startbtn" type="button">Iniciar</button>
+            <div class="row justify-content-center">
+                <div class="col-5 text-center"  style="position: absolute; right: 0; bottom: 20px;">
+                    <a href="/tutorial" target="_blank" class="btn btn-primary" type="button">¿Cómo funciona?</a>
+                </div>
             </div>
+            <div class="row justify-content-center mt-2">
+                <div class="col-4 text-center">
+                    <label for="username">Introduce tu nombre de usuario de Twitch:</label>
+                    <input placeholder="Usuario de Twitch" class="form-control" type="text" id="username">
+                </div>
+            </div> 
+            <div class="row justify-content-center mt-2">
+                <div class="col-5 text-center">
+                    <button class="btn btn-danger startbtn" disabled type="button">Iniciar</button>
+                </div>
+            </div>    
         </div>
     </div>
     <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 </body>
 
 
