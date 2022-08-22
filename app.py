@@ -71,6 +71,6 @@ def readResults():
         inp.close();
     return toReturn;
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     #app.run(host="192.168.1.94");
-    app.run(debug=True);
+    #app.run(debug=True);
